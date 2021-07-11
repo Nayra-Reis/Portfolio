@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.header-menu {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    height: 60px;
+    background-color: #938DF8;
+}
+
+.header-menu nav {
+    width: 100%;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.lista-menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    list-style: none;
+    align-items: center;
+}
+
+.lista-menu li>a {
+    font-size: 18px;
+    color: #FFF;
+    text-decoration: inherit;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.principal {
+    height: 100vh;
+    display: flex;
+    background-color: #EAEAEA;
+    ;
+}
+
+.subcontainer-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nome-completo {
+    font-size: 36px;
+    color: #938DF8;
+    font-weight: 700;
+    height: 45px;
+}
+
+.texto-sobre {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.profissao {
+    color: #C5C0C0;
+    height: 60px;
+}
+
+.topico-principal {
+    font-size: 36px;
+    color: #49BFB3;
+}
+
+.lista-item {
+    padding: 32px;
+}
+
+.lista-item ul li {
+    margin-bottom: 32px;
+}
+
+.lista-titulo {
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #828282;
+    font-weight: 700;
+}
+
+.lista-local {
+    font-size: 18px;
+    color: #2F80ED;
+}
+
+.lista-descricao {
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 20px;
+    color: #828282;
+    font-weight: 300;
+}
+
+.wrapper-portfolio {
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-lista {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+
+.subtitulo-lista {
+    font-size: 18px;
+    color: #828282;
+    font-weight: 500;
+}
+
+.estilo-icon {
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+.footer {
+    background-color: #5A53D8;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+.lista-footer li {
+    color: #FFFF;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.estilo-icon{
+    font-size:32px ;
+    margin-right: 10px;
+}
+
+.link {
+    color: #FFF;
+    text-decoration: none;
+}
